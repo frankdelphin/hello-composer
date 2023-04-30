@@ -1,0 +1,19 @@
+{
+    "name": "inventkg/hello-composer",
+    "description": "A simple simple hello word composer package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Inventkg\\HelloComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mpo Frank",
+            "email": "mpotdelphin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
